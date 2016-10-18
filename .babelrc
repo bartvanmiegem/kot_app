@@ -1,0 +1,13 @@
+{
+  "presets": [ "react-native" ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-do-expressions",
+    "transform-function-bind",
+    "transform-class-properties",
+    "transform-export-extensions",
+    ["transform-builtin-extend", {
+      "globals": [ "Error" ]
+    }]
+  ]
+}
